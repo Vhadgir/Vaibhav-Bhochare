@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 40px;
+}
+.Main{
+    width: 100%;
+    height: 41rem;
+    background-color:#735DA5;
+}
+nav{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+nav>ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+nav>ul>li{
+    margin-top: 20px;
+    cursor: pointer;
+    display: inline;
+    padding-bottom: 3px;
+    transition: 0.5s;
+}
+nav>ul>li:hover{
+    font-size: 16px;
+}
+
+
+.shop{
+    width: 100%;
+    height: 20.5rem;
+}
+.new{
+    float: left;
+    width: 27%;
+    height: 85%;
+    margin-left: 16%;
+    margin-top: 2%;
+}
+button{
+    width: 115px;
+    height: 35px;
+    background-color: #1b2c2c;
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    margin: 60px 0px 0px 0px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.divMain{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: #D3C5E5;
+    border-radius: 350px 0px 0px 0px;
+}
+.Mainimg{
+    width: 50%;
+    height: 100%;
+    margin: 0% 25%;
+}
+h3{
+    font-size: 25px;
+    transform: rotate(-90deg);
+}
+.good{
+    width: 100%;
+    height: 15.5rem;
+    background-color: #735DA5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.good>div{
+    cursor: pointer;
+    position: relative;
+    width: 15%;
+    height: 50%;
+    border-radius: 15px;
+    background-color: white;
+}
+.good>div>img{
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    margin: -27% 17%;
+    transition: 0.5s;
+}
+
+.good>div>.item{
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    bottom: 0%;
+    height: 55px;
+}
+.arrow{
+    border-radius: 100px;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    width: 40px;
+}
